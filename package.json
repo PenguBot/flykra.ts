@@ -15,7 +15,7 @@
 		"clean": "tsc -b src --clean",
 		"watch": "tsc -b src -w",
 		"sversion": "yarn standard-version",
-		"prepublish": "build",
+		"prepublish": "yarn build",
 		"postinstall": "husky install",
 		"prepublishOnly": "pinst --disable",
 		"postpublish": "pinst --enable"
