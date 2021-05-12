@@ -5,6 +5,7 @@
 	"main": "dist/index.js",
 	"author": "Aditya Nath Tripathi (adityatripathidelhi@gmail.com)",
 	"license": "Apache-2.0",
+	"private": "false",
 	"scripts": {
 		"start": "node dist/index.js",
 		"lint": "eslint src --ext ts --fix",
@@ -13,7 +14,7 @@
 		"clean": "tsc -b src --clean",
 		"watch": "tsc -b src -w",
 		"sversion": "yarn standard-version",
-		"postinstall": "husky install",
+		"_postinstall": "husky install",
 		"prepublishOnly": "pinst --disable",
 		"postpublish": "pinst --enable"
 	},
