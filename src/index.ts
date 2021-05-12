@@ -1,1 +1,6 @@
-export const main = () => 'this builds and pushes';
+/* eslint-disable @typescript-eslint/naming-convention */
+import FlykraClient from './lib/FlykraClient';
+
+export default {
+	FlykraClient
+};
