@@ -4,5 +4,9 @@
 		"allowJs": true,
 		"checkJs": true
 	},
-	"include": ["src", "tests", "jest.config.ts"]
+	"include": ["src"],
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
 }
