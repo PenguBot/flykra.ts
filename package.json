@@ -1,7 +1,7 @@
 {
 	"name": "@pengubot/flykra",
 	"description": "Pengu's Flykra API Client",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "dist/index.js",
 	"author": "Aditya Nath Tripathi (adityatripathidelhi@gmail.com)",
 	"license": "Apache-2.0",
