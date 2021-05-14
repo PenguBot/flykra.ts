@@ -1,6 +1,6 @@
 export enum FlykraHeaders {
   ContentTypeJSON = "application/json",
-  UserAgent = "FlykraClient/1.0.0",
+  UserAgent = "FlykraTS/1.0.0",
   AcceptEncoding = "gzip, deflate, br",
 }
 
