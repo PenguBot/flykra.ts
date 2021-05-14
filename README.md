@@ -9,19 +9,22 @@
 ![npm](https://img.shields.io/npm/v/@pengubot/flykra.ts?style=flat-square)
 
 Pengu's Flykra API Client
+
 </div>
 
 ## Example Usage
 
 ```js
-	import FlykraClient from "@pengubot/flykra";
+import FlykraClient from "@pengubot/flykra";
 
-	const flykra = new FlykraClient({ secret: "api secret token" });
-	await flykra.rainbow("https://cdn.discordapp.com/avatars/xyz/xyz.png?size=512");
+const flykra = new FlykraClient({ secret: "api secret token" });
+await flykra.rainbow("https://cdn.discordapp.com/avatars/xyz/xyz.png?size=512");
 ```
 
 ## Endpoints
+
 #### Generators
+
 - batslap
 - beautiful
 - bobross
@@ -37,14 +40,17 @@ Pengu's Flykra API Client
 - wanted
 
 #### Overlays
+
 - rainbow
 - approved
 - rejected
 
 #### Text
+
 - achievement
 - changemymind
 - illegal
 
 ## License
+
 [Apache-2.0](https://github.com/PenguBot/flykra.ts/blob/main/LICENSE)
