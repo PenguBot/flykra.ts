@@ -14,4 +14,4 @@ jobs:
       - name: check format
         run: deno fmt --check
       - name: check lint
-        run: deno lint
+        run: deno lint --unstable
