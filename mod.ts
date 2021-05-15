@@ -1,13 +1,3 @@
-import FlykraClient from "./src/FlykraClient.ts";
-import {
-  GeneratorEndpoints,
-  OverlayEndpoints,
-  TextEndpoints,
-} from "./src/Enums.ts";
+import { FlykraClient } from "./src/FlykraClient.ts";
 
-export default {
-  FlykraClient,
-  GeneratorEndpoints,
-  OverlayEndpoints,
-  TextEndpoints,
-};
+export { FlykraClient };

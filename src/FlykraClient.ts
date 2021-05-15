@@ -8,7 +8,7 @@ import {
   TextEndpoints,
 } from "./Enums.ts";
 
-export default class FlykraClient {
+export class FlykraClient {
   public secret: string;
   public basePath: string;
 
